@@ -27,7 +27,7 @@ import sys
 def job():
     commit = 'HEAD'
     run_id = uuid.uuid4()
-    os.system('python run-benchmark.py ' + commit + ' ' + str(run_id) + ' scheduler' + ' &')
+    os.system('python3.7 run-benchmark.py ' + commit + ' ' + str(run_id) + ' scheduler' + ' &')
 
 # -----------------------------------------------------------------------------------------------------------------------------------------------------
 

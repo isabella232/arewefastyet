@@ -5,4 +5,4 @@ alias activate="benchmark/bin/activate"
 
 # virtualenv is now active.
 #
-python scheduler.py $1
+python3.7 scheduler.py $1
